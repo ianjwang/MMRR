@@ -1,7 +1,7 @@
 Package: MMRR
 Type: Package
 Title: Multiple Matrix Regression with Randomization
-Version: 1.0
+Version: 1.1
 Authors@R: person("Ian", "Wang", email = "ianwang@berkeley.edu",
                   role = c("aut", "cre"))
 Description: A package for performing multiple matrix regression with randomization (MMRR) analysis.
