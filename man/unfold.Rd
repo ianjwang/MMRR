@@ -14,3 +14,7 @@ unfold(X, scale = TRUE)
 \description{
 Converts the lower diagonal elements of a matrix into a vector
 }
+\examples{
+mat <- matrix(1:16, nrow = 4, ncol = 4)
+unfold(mat)
+}

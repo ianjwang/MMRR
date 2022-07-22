@@ -4,8 +4,9 @@
 #'
 #' @param X A matrix
 #' @param scale If TRUE, the resulting vector is scaled and centered
-#' @example
-#' unfold(simData$geoMat)
+#' @examples
+#' mat <- matrix(1:16, nrow = 4, ncol = 4)
+#' unfold(mat)
 #' @export
 unfold<-function(X, scale = TRUE){
   x<-vector()

@@ -18,3 +18,7 @@ MMRR(Y, X, nperm = 999, scale = TRUE)
 \description{
 MMRR performs Multiple Matrix Regression with Randomization analysis
 }
+\examples{
+Xmats <- list(geography = simData$geoMat, ecology = simData$ecoMat)
+MMRR(simData$genMat, Xmats, nperm = 99)
+}

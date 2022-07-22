@@ -23,3 +23,8 @@ Plots the results of an MMRR analysis
 \details{
 The objects supplied for Y and X should be the same variables used to fit the MMRR model.  The paramter 'scale' should be the same as used to fit the model.
 }
+\examples{
+Xmats <- list(geography = simData$geoMat, ecology = simData$ecoMat)
+reg <- MMRR(simData$genMat, Xmats, nperm = 99)
+plotMMRR(reg, simData$genMat, Xmats)
+}

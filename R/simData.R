@@ -6,7 +6,7 @@
 #'
 #' @usage data(simData)
 #'
-#' @format Distance matrices
+#' @format A list of distance matrices
 #'
 #' @examples
 #' data(simData)

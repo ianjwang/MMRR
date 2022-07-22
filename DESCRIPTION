@@ -5,7 +5,7 @@ Version: 1.0
 Authors@R: person("Ian", "Wang", email = "ianwang@berkeley.edu",
                   role = c("aut", "cre"))
 Description: A package for performining multiple matrix regression with randomization (MMRR) analysis
-Depends: R (>= 3.1.0)
+Depends: R (>= 3.5.0)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

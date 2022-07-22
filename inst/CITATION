@@ -1,0 +1,10 @@
+bibtEntry(
+  entry    = "Article",
+  author   = "Ian J. Wang",
+  title    = "Examining the full effects of landscape heterogeneity on spatial genetic variation: a multiple matrix regression approach for quantifying geographic and ecological isolation",
+  journal  = "Evolution",
+  year     = 2013,
+  volume   = "67",
+  pages    = "3403-3411",
+  doi      = "https://doi.org/10.1111/evo.12134"
+)
