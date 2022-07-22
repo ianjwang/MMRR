@@ -8,6 +8,7 @@
 #' @param scale If TRUE, all variables are scaled
 #' @param varNames A vector of names for the variables in the model (optional)
 #' @param lineCol Color for regression line
+#' @param ... Additional arguments to be passed to plot() function (optional)
 #' @examples
 #' Xmats <- list(geography = simData$geoMat, ecology = simData$ecoMat)
 #' reg <- MMRR(simData$genMat, Xmats, nperm = 99)
