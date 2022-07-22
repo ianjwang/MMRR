@@ -1,10 +1,16 @@
-bibtEntry(
+citHeader("To cite MMRR in publications use:")
+
+citEntry(
   entry    = "Article",
-  author   = "Ian J. Wang",
   title    = "Examining the full effects of landscape heterogeneity on spatial genetic variation: a multiple matrix regression approach for quantifying geographic and ecological isolation",
+  author   = "Ian J. Wang",
   journal  = "Evolution",
-  year     = 2013,
+  year     = "2013",
   volume   = "67",
+  number   = "12",
   pages    = "3403-3411",
-  doi      = "https://doi.org/10.1111/evo.12134"
+  url      = "https://doi.org/10.1111/evo.12134",
+  textVersion = paste(
+"Wang I.J. (2013) Examining the full effects of landscape heterogeneity on spatial genetic variation: a multiple matrix regression approach for quantifying geographic and ecological isolation. Evolution, 67: 3403-3411."
+  )
 )
